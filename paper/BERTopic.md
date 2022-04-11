@@ -83,9 +83,9 @@
         
         <img src = "https://latex.codecogs.com/gif.latex?W_t,_c=tf_t,_c\cdot\log(1+\frac{A}{tf_t})">
         
-        <img src = "https://latex.codecogs.com/gif.latex?tf_t,_c"> : frequency of word t in class c">
+        <img src = "https://latex.codecogs.com/gif.latex?tf_t,_c"> : frequency of word t in class c
         
-        <img src = "https://latex.codecogs.com/gif.latex?f_t"> : frequency of word t across all classes}
+        <img src = "https://latex.codecogs.com/gif.latex?f_t"> : frequency of word t across all classes
         
         <img src = "https://latex.codecogs.com/gif.latex?A"> : average number of words per class
         
