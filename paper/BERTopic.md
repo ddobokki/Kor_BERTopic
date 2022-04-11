@@ -83,11 +83,11 @@
         
         <img src = "https://latex.codecogs.com/gif.latex?W_t,_c=tf_t,_c\cdot\log(1+\frac{A}{tf_t})">
         
-        <img src = "https://latex.codecogs.com/gif.latex?tf_t,_c=\text {frequency of word t in class c" t>
+        <img src = "https://latex.codecogs.com/gif.latex?tf_t,_c=\text {frequency of word t in class c}">
         
-        <img src = "https://latex.codecogs.com/gif.latex?f_t=\text {frequency of word t across all classes}" t >
+        <img src = "https://latex.codecogs.com/gif.latex?f_t=\text {frequency of word t across all classes}">
         
-        <img src = "https://latex.codecogs.com/gif.latex?A=\text {average number of words per class}" t >
+        <img src = "https://latex.codecogs.com/gif.latex?A=\text {average number of words per class}" >
         
         - 변형된 TF-IDF
         - Concat doc(**클러스터 내의 문서**를 **단일 문서**로 취급 → c)
