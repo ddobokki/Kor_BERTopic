@@ -1,6 +1,26 @@
-# BERTopic
-
-# 정리
+- [BERTopic](#bertopic)
+- [정리](#--)
+  * [1. Introduction](#1-introduction)
+  * [2. Related Work](#2-related-work)
+  * [3. BERTopic](#3-bertopic)
+    + [3.1 Document embeddings](#31-document-embeddings)
+    + [3.2 Doucument clustering](#32-doucument-clustering)
+    + [3.3 Topic Representation](#33-topic-representation)
+  * [4. Dynamic Topic Modeling](#4-dynamic-topic-modeling)
+    + [4.1 Smoothing](#41-smoothing)
+  * [5. Experimental Setup](#5-experimental-setup)
+    + [5.1 Datasets](#51-datasets)
+    + [5.2 Models](#52-models)
+    + [5.3 Evaluation](#53-evaluation)
+  * [6. Result](#6-result)
+    + [6.1 Performance](#61-performance)
+    + [6.2 Language Models](#62-language-models)
+    + [6.3 Dynamic Topic Modeling](#63-dynamic-topic-modeling)
+    + [6.4 Wall time](#64-wall-time)
+  * [7. Discussion](#7-discussion)
+    + [7.1 Strengths](#71-strengths)
+    + [7.2 Weaknesses](#72-weaknesses)
+  * [8. Conclusion](#8-conclusion)
 
 ## 1. Introduction
 
