@@ -73,27 +73,27 @@
 3. 그를 위해 TF-IDF를 수정 - 
     1. 기존 TF-IDF
         
-        $W_t,_d = tf_t,_d \cdot \log(\frac{N}{df_t})$
+        <img src = "https://latex.codecogs.com/gif.latex?W_t,_d=tf_t,_d\cdot\log(\frac{N}{df_t})">
         
-        TF: term $t$ in document $d$
+        TF: term t in document d
         
-        IDF: logarithm of the number of documents in a curpus $N$ divided by the total number of documents that contain $t$
+        IDF: logarithm of the number of documents in a curpus N divided by the total number of documents that contain t
         
     2. Class-based TF-IDF
         
-        $W_t,_c = tf_t,_c\cdot\log(1+\frac{A}{tf_t})$
+        <img src = "https://latex.codecogs.com/gif.latex?W_t,_c = tf_t,_c\cdot\log(1+\frac{A}{tf_t})">
         
-        $tf_t,_c$: frequency of word t in class c
+        <img src = "https://latex.codecogs.com/gif.latex?tf_t,_c = \text {frequency of word t in class c} t" >
         
-        $f_t$: frequency of word t across all classes
+        <img src = "https://latex.codecogs.com/gif.latex?f_t = \text {frequency of word t across all classes}" t >
         
-        $A$: average number of words per class
+        <img src = "https://latex.codecogs.com/gif.latex?A = \text {average number of words per class} t" >
         
         - 변형된 TF-IDF
         - Concat doc(**클러스터 내의 문서**를 **단일 문서**로 취급 → c)
         - EX)
-            - 어떤 단어 w가 특정 클래스에 많으면 $tf_t,_c$가 높다
-            - 만약 w가 a, the와 같이 모든 클래스에서 나타날 수 있는 단어라면 IDF 항이 작아짐($tf_t$가 클 것이므로), 반대면 증가 ($tf_t$가 작아지므로)
+            - 어떤 단어 w가 특정 클래스에 많으면 <img src = "https://latex.codecogs.com/gif.latex?tf_t,_c">가 높다
+            - 만약 w가 a, the와 같이 모든 클래스에서 나타날 수 있는 단어라면 IDF 항이 작아짐(<img src = "https://latex.codecogs.com/gif.latex?tf_t">가 클 것이므로), 반대면 증가 (<img src = "https://latex.codecogs.com/gif.latex?tf_t">가 작아지므로)
         - 양수만 출력하기 위하여 로그 내부에서 1을 더함
 
 1. 이 결과로 class-bassed tf-idf는 개별 문서 대신 클러스터에서 단어의 중요성을 모델링 함
