@@ -1,7 +1,7 @@
 # Kor_BERTopic
-텍스트 클러스터링을 위한 한국어 Bertopic repo
+텍스트 클러스터링을 위한 한국어 BERTopic repo
 
-[TODO]
+[논문](paper/BERTopic.md)
 
 1.Base Experiment
 
