@@ -73,7 +73,7 @@
 3. 그를 위해 TF-IDF를 수정 - 
     1. 기존 TF-IDF
         
-        $$W_t,_d = tf_t,_d \cdot \log(\frac{N}{df_t})$$
+        $W_t,_d = tf_t,_d \cdot \log(\frac{N}{df_t})$
         
         TF: term $t$ in document $d$
         
