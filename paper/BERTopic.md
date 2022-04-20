@@ -132,8 +132,7 @@
         3. 2020: Tesla, self-driving이란 표현이 글로벌 토픽 Car를 설명
     3. 즉 이렇기 때문에 local representation을 생성하기 전 Global representation을 생성
     4. 이것을 하기 위해 BERTopic은 처음에는 데이터에 시간적 특성이 없는 것 처럼 전체 corpus에 대하여 훈련된다.
-    5. 그 다음 각 topic(global)의 local representation을 만들 수 있다. 사전에 계산된 c-IDF에 타임 스텝별 tf 값을 곱함으로 구할 수 있다.
-    <img src = "https://latex.codecogs.com/gif.latex?W_t,_c,_i=tf_t,_c,_i\cdot\log(1+\frac{A}{tf_t})">
+    5. 그 다음 각 topic(global)의 local representation을 만들 수 있다. 사전에 계산된 c-IDF에 타임 스텝별 tf 값을 곱함으로 구할 수 있다.<img src = "https://latex.codecogs.com/gif.latex?W_t,_c,_i=tf_t,_c,_i\cdot\log(1+\frac{A}{tf_t})">
     6. 이 테크닉의 이점은, local representation 임베딩이나 클러스터링이 없어(앞서 했으니) 빠른 계산 속도를 가진다는 점
     7. 이 방법은 또한 저자, 저널과 같은 다른 메타 데이터에 의한 토픽 모델링을 하는 데 사용이 가능
 
